@@ -22,11 +22,11 @@
 export default {
   props: ['rates'],
   data: () => ({
-    currencies: ['RUB', 'USD', 'EUR']
+    currencies: ['KGS', 'USD', 'EUR']
   }),
   computed: {
     base() {
-      return this.$store.getters.info.bill / (this.rates['RUB'] / this.rates['EUR'])
+      return this.$store.getters.info.bill / (this.rates['KGS'] / this.rates['USD'])
     }
   },
   methods: {
