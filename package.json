@@ -1,5 +1,5 @@
 {
-  "name": "vue-youtube",
+  "name": "vue-crm",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -15,6 +15,7 @@
     "register-service-worker": "^1.6.2",
     "vue": "^2.6.6",
     "vue-chartjs": "^3.4.2",
+    "vue-meta": "^2.4.0",
     "vue-router": "^3.0.1",
     "vuejs-paginate": "^2.1.0",
     "vuelidate": "^0.7.4",
@@ -24,7 +25,7 @@
     "@vue/cli-plugin-babel": "^3.5.0",
     "@vue/cli-plugin-pwa": "^3.5.0",
     "@vue/cli-service": "^3.5.0",
-    "node-sass": "^4.9.0",
+    "node-sass": "^4.14.1",
     "sass-loader": "^7.1.0",
     "vue-template-compiler": "^2.5.21"
   }
